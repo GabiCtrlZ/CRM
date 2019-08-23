@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+  background-color: #ecf0f1
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.nav_bar {
+  background-color: #0a1612;
+  font-size: 25px;
+}
+
+#nav-mobile a:hover {
+  background-color: #3b3b3b
+}
+
+p{
+  display: inline-block;
+}
+
+.table_head{
+  background-color: #F7CE3E;
+  box-shadow: 0px 0px 4px;
+}
+.table_body:hover{
+  background-color: rgb(179, 179, 179);
+}
+.table_body{
+  transition-duration: 0.3s;
+}
+.page_on{
+  background-color: #F7CE3E;
+}
+.arroww{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container_search, .badges_container{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.badges_container{
+  margin-top: 1%
+}
+#trending_up{
+  background-color: rgb(47, 173, 47);
+}
+#account_circle{
+  background-color: rgb(216, 43, 43);
+}
+#public{
+  background-color: #edaa02;
+}
+#trending_up:hover{
+  background-color: rgb(47, 173, 47);
+}
+#account_circle:hover{
+  background-color: rgb(216, 43, 43);
+}
+#public:hover{
+  background-color: #edaa02;
+}
+#trending_up, #account_circle, #public, #email{
+  width: 5rem;
+  height: 5rem;
+  cursor: context-menu;
+}
+.btn-floating i {
+  margin-top: 12%;
+  font-size: 3rem
+}
+#client_card{
+  background-color: rgba(39, 41, 58, 0.904);
+  position: fixed;
+  width: 30%;
+  z-index: 1;
+  top: 25%;
+  left: 34%;
+  animation: fade 1s
+}
+@keyframes fade {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+.kill_button{
+  position: absolute;
+  top: 7%;
+  left: 3%;
+  width: 10%;
+  height: 10%;
+  font-size: 5px;
+  cursor: pointer;
+}
+
+#in1, #in2, #in3{
+  color: white;
+}
+td{
+  cursor: pointer;
+}
+select{
+  display: inline-block;
+}
+.batan{
+  text-align: center;
+  color: #F7CE3E;
+  padding: 5%;
+  border-radius: 3% 
+}
+.batan:hover{
+  background-color: #8b8b8b;
+}
+.bold{
+  font-weight: bold;
+}
+#batan{
+  background-color: #F7CE3E;
+  color: black;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.titles{
+  font-size: 3rem;
+}
+#sales_by_select{
+  height: 30px;
+}
